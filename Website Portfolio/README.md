@@ -16,7 +16,8 @@ This is my personal portfolio website developed as part of my CodeAlpha Web Deve
 - Contact section
 
 ## Live Demo
-Live demo link will be added soon.
+[view live website]## Live Demo
+[View Live Website](https://humaira-asad82.github.io/codeAlpha-tasks/)
 
 ## Author
 Humaira Asad
