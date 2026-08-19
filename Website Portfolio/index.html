@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Humaira Asad — Web Developer Portfolio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ============ NAV ============ -->
+<header class="topbar">
+  <a href="#" class="logo">HUMAIRA ASAD<span>.</span></a>
+  <nav class="tabs" id="tabs">
+    <a href="#about" class="tab" data-tab="about">About</a>
+    <a href="#education" class="tab" data-tab="education">Education</a>
+    <a href="#experience" class="tab" data-tab="experience">Experience</a>
+    <a href="#skills" class="tab" data-tab="skills">Skills</a>
+    <a href="#courses" class="tab" data-tab="courses">Courses</a>
+    <a href="#projects" class="tab" data-tab="projects">Projects</a>
+    <a href="#contact" class="tab" data-tab="contact">Contact</a>
+  </nav>
+  <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+    <span></span><span></span><span></span>
+  </button>
+</header>
+
+<!-- ============ HERO ============ -->
+<section class="hero">
+  <div class="code-window">
+    <div class="code-window-bar">
+      <span class="dot dot-red"></span><span class="dot dot-yellow"></span><span class="dot dot-green"></span>
+      <span class="code-filename">about-me.js</span>
+    </div>
+    <pre class="code-body"><code><span class="cm">// hello, welcome to my portfolio</span>
+<span class="kw">const</span> <span class="var">developer</span> = {
+  name: <span class="str">"Humaira Asad"</span>,
+  role: <span class="str">"BS-IT Graduate · Web Developer"</span>,
+  location: <span class="str">"Faisalabad, Pakistan"</span>,
+  skills: [<span class="str">"HTML"</span>, <span class="str">"CSS"</span>, <span class="str">"JavaScript"</span>, <span class="str">"Graphic Design"</span>],
+  currentlyLearning: [<span class="str">"React"</span>, <span class="str">"Node.js"</span>, <span class="str">"MongoDB"</span>],
+  status: <span class="cursor-line">"<span id="typewriter"></span><span class="cursor">|</span>"</span>
+};</code></pre>
+  </div>
+  <div class="hero-actions">
+    <a href="#contact" class="btn btn-primary">Get in touch</a>
+    <a href="#projects" class="btn btn-ghost">View projects</a>
+  </div>
+</section>
+
+<!-- ============ ABOUT ============ -->
+<section id="about" class="section">
+  <div class="section-label"><span class="tag">// About Me</span></div>
+  <h2 class="section-title">01 / About</h2>
+
+  <div class="about-grid">
+    <div class="avatar-block">
+      <div class="avatar">HA</div>
+      <div class="mini-tags">
+        <span class="mini-tag">🌐 Urdu, English</span>
+        <span class="mini-tag">💡 Exploring new tech</span>
+        <span class="mini-tag">📚 Reading</span>
+      </div>
+    </div>
+    <div>
+      <p class="about-text">
+        Motivated <strong>BS-IT student</strong> with practical experience in web development,
+        graphics designing, and social media management — seeking an internship opportunity to
+        sharpen my web development skills and grow into a full IT professional.
+      </p>
+      <p class="about-text">
+        I'm currently building toward becoming a <strong>MERN stack developer</strong>, adding
+        React, Node.js, Express, and MongoDB on top of the HTML, CSS, and JavaScript foundation
+        I already work with daily.
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- ============ EDUCATION ============ -->
+<section id="education" class="section section-alt">
+  <div class="section-label"><span class="tag">// Education</span></div>
+  <h2 class="section-title">02 / Education</h2>
+
+  <div class="timeline">
+    <div class="timeline-item">
+      <div class="timeline-dot dot-teal"></div>
+      <div class="timeline-content">
+        <div class="timeline-top">
+          <h3>BS Information Technology</h3>
+          <span class="timeline-date">Nov 2022 – 2026</span>
+        </div>
+        <p class="timeline-org">Government College Women University, Faisalabad</p>
+        <span class="badge badge-teal">GPA: 3.2 / 4</span>
+      </div>
+    </div>
+
+    <div class="timeline-item">
+      <div class="timeline-dot dot-blue"></div>
+      <div class="timeline-content">
+        <div class="timeline-top">
+          <h3>FSC (Pre-Engineering)</h3>
+          <span class="timeline-date">2020 – 2022</span>
+        </div>
+        <p class="timeline-org">Muhammad Ali Jinnah Educational Complex, Painsra, Faisalabad</p>
+        <span class="badge badge-blue">896 / 1100 marks</span>
+      </div>
+    </div>
+
+    <div class="timeline-item">
+      <div class="timeline-dot dot-green"></div>
+      <div class="timeline-content">
+        <div class="timeline-top">
+          <h3>Matriculation</h3>
+          <span class="timeline-date">2018 – 2020</span>
+        </div>
+        <p class="timeline-org">Government Girls High School 273/J.B, Faisalabad</p>
+        <span class="badge badge-green">803 / 1100 marks</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ EXPERIENCE ============ -->
+<section id="experience" class="section">
+  <div class="section-label"><span class="tag">// Experience</span></div>
+  <h2 class="section-title">03 / Experience</h2>
+
+  <div class="timeline">
+    <div class="timeline-item">
+      <div class="timeline-dot dot-teal"></div>
+      <div class="timeline-content">
+        <div class="timeline-top">
+          <h3>Social Media Officer</h3>
+          <span class="timeline-date">Nov 2025 – Mar 2026</span>
+        </div>
+        <p class="timeline-org">Viva Healthcare Pharmaceutical Company, Faisalabad</p>
+      </div>
+    </div>
+
+    <div class="timeline-item">
+      <div class="timeline-dot dot-blue"></div>
+      <div class="timeline-content">
+        <div class="timeline-top">
+          <h3>Graphics Designer Internee</h3>
+          <span class="timeline-date">Jun 2025 – Dec 2025</span>
+        </div>
+        <p class="timeline-org">IT Department, GC Women University Faisalabad</p>
+      </div>
+    </div>
+
+    <div class="timeline-item">
+      <div class="timeline-dot dot-green"></div>
+      <div class="timeline-content">
+        <div class="timeline-top">
+          <h3>Website Developer Internee</h3>
+          <span class="timeline-date">Sep 2024 – Dec 2024</span>
+        </div>
+        <p class="timeline-org">Tech-Hub Institute, Faisalabad</p>
+        <p class="timeline-desc">Built the Taste Hub Restaurant website and contributed to internal web portfolio projects.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="extracurricular">
+    <h3 class="extracurricular-title">Extracurricular</h3>
+    <div class="extra-row"><span class="extra-badge">Conference</span> IEEE Conference, Sitara Hall by Taj Mahal Marquee, Faisalabad — Oct 2025</div>
+    <div class="extra-row"><span class="extra-badge">Seminar</span> Jinnah Eduroam volunteer, GC Women University Faisalabad</div>
+  </div>
+</section>
+
+<!-- ============ SKILLS ============ -->
+<section id="skills" class="section section-alt">
+  <div class="section-label"><span class="tag">// Skills</span></div>
+  <h2 class="section-title">04 / Skills</h2>
+
+  <div class="skills-block">
+    <h3 class="skills-subtitle">Core Skills</h3>
+    <div class="skill-list">
+      <div class="skill-row">
+        <span class="skill-name">Web Development</span>
+        <div class="skill-bar"><div class="skill-fill fill-teal" style="width:60%"></div></div>
+      </div>
+      <div class="skill-row">
+        <span class="skill-name">Graphic Design</span>
+        <div class="skill-bar"><div class="skill-fill fill-blue" style="width:100%"></div></div>
+      </div>
+      <div class="skill-row">
+        <span class="skill-name">Social Media Handling</span>
+        <div class="skill-bar"><div class="skill-fill fill-green" style="width:80%"></div></div>
+      </div>
+      <div class="skill-row">
+        <span class="skill-name">MS Office</span>
+        <div class="skill-bar"><div class="skill-fill fill-teal" style="width:100%"></div></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="skills-block">
+    <h3 class="skills-subtitle">Currently Learning (MERN Stack)</h3>
+    <div class="skill-list">
+      <div class="skill-row">
+        <span class="skill-name">React.js</span>
+        <div class="skill-bar"><div class="skill-fill fill-learning" style="width:45%"></div></div>
+      </div>
+      <div class="skill-row">
+        <span class="skill-name">Node.js / Express</span>
+        <div class="skill-bar"><div class="skill-fill fill-learning" style="width:35%"></div></div>
+      </div>
+      <div class="skill-row">
+        <span class="skill-name">MongoDB</span>
+        <div class="skill-bar"><div class="skill-fill fill-learning" style="width:30%"></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ COURSES ============ -->
+<section id="courses" class="section">
+  <div class="section-label"><span class="tag">// Courses & Certifications</span></div>
+  <h2 class="section-title">05 / Courses</h2>
+
+  <div class="course-grid">
+    <div class="course-card">
+      <span class="course-year">2024</span>
+      <h3>Web Development</h3>
+      <p>HTML, CSS, and JavaScript fundamentals.</p>
+    </div>
+    <div class="course-card">
+      <span class="course-year">2025</span>
+      <h3>Freelancing</h3>
+      <p>Working across freelance platforms like Amazon, eBay, and TikTok Shop.</p>
+    </div>
+    <div class="course-card">
+      <span class="course-year">Online</span>
+      <h3>Artificial Intelligence</h3>
+      <p>Foundations of AI concepts and applications.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PROJECTS ============ -->
+<section id="projects" class="section section-alt">
+  <div class="section-label"><span class="tag">// Projects</span></div>
+  <h2 class="section-title">06 / Projects</h2>
+
+  <div class="project-grid">
+    <article class="project-card">
+      <div class="project-card-top">
+        <span class="project-index">01</span>
+        <span class="project-stack">HTML · CSS · JS</span>
+      </div>
+      <h3 class="project-title">Taste Hub Restaurant Website</h3>
+      <p class="project-desc">
+        A restaurant website built during my Website Developer internship at Tech-Hub Institute —
+        covering menu display, responsive layout, and interactive UI.
+      </p>
+      <div class="project-links">
+        <a href="#" class="project-link">Live demo →</a>
+        <a href="#" class="project-link">Source code →</a>
+      </div>
+    </article>
+
+    <article class="project-card">
+      <div class="project-card-top">
+        <span class="project-index">02</span>
+        <span class="project-stack">HTML · CSS · JS</span>
+      </div>
+      <h3 class="project-title">Website Clone Project</h3>
+      <p class="project-desc">
+        A pixel-close clone of a real-world website, built from scratch to practice layout,
+        responsiveness, and vanilla JavaScript interactivity.
+      </p>
+      <div class="project-links">
+        <a href="#" class="project-link">Live demo →</a>
+        <a href="#" class="project-link">Source code →</a>
+      </div>
+    </article>
+
+    <article class="project-card">
+      <div class="project-card-top">
+        <span class="project-index">03</span>
+        <span class="project-stack">HTML · CSS · JS</span>
+      </div>
+      <h3 class="project-title">This Portfolio Website</h3>
+      <p class="project-desc">
+        A fully responsive personal portfolio, designed and coded from scratch to
+        showcase my education, experience, and skills.
+      </p>
+      <div class="project-links">
+        <a href="#" class="project-link">Source code →</a>
+      </div>
+    </article>
+
+    <article class="project-card project-card-placeholder">
+      <div class="project-card-top">
+        <span class="project-index">04</span>
+        <span class="project-stack">MERN</span>
+      </div>
+      <h3 class="project-title">Your next project goes here</h3>
+      <p class="project-desc">
+        Reserved slot for your first full-stack MERN build — a to-do app, blog, or small
+        e-commerce page is a great place to start.
+      </p>
+      <div class="project-links">
+        <span class="project-link project-link-muted">Coming soon</span>
+      </div>
+    </article>
+  </div>
+</section>
+
+<!-- ============ CONTACT ============ -->
+<section id="contact" class="section">
+  <div class="section-label"><span class="tag">// Contact</span></div>
+  <h2 class="section-title">07 / Get In Touch</h2>
+  <p class="about-text contact-intro">
+    I'm actively looking for an internship opportunity. Feel free to reach out — I reply fast.
+  </p>
+
+  <form class="contact-form" id="contactForm">
+    <div class="form-row">
+      <label for="name">Name</label>
+      <input type="text" id="name" placeholder="Your name" required>
+    </div>
+    <div class="form-row">
+      <label for="email">Email</label>
+      <input type="email" id="email" placeholder="you@example.com" required>
+    </div>
+    <div class="form-row">
+      <label for="message">Message</label>
+      <textarea id="message" rows="4" placeholder="Say hello..." required></textarea>
+    </div>
+    <button type="submit" class="btn btn-primary">Send message</button>
+    <p class="form-status" id="formStatus"></p>
+  </form>
+
+  <div class="social-links">
+    <a href="mailto:humairaasadwork@gmail.com">✉ humairaasadwork@gmail.com</a>
+    <a href="#" target="_blank" rel="noopener">LinkedIn</a>
+    <a href="#" target="_blank" rel="noopener">GitHub</a>
+    <span class="location-tag">📍 Faisalabad, Punjab, Pakistan</span>
+  </div>
+</section>
+
+<footer class="footer">
+  <p>&copy; <span id="year"></span> Humaira Asad — built with HTML, CSS &amp; JavaScript.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
